@@ -3,7 +3,6 @@
 # Input: file, 'input.csv'
 # contains a single line of comma-separated string terminated by a new line character
 
-# TODO
 # function: read in 'input.csv'
 def read_in_to_list(input_file):
     # TODO check for bad inputs
@@ -34,7 +33,6 @@ def write_out(input_list, output_file):
 
 input_file = 'input.csv'
 read_list = read_in_to_list(input_file)
-#print('list is is {}'.format(read_list))
 sorted_list = reverse_sort(read_list)
-#print('sorted list is {}'.format(sorted_list))
 write_out(sorted_list, 'output.csv')
+print(sorted_list)
